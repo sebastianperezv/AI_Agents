@@ -23,7 +23,7 @@ This repository is organized into three main levels of complexity:
 * **Key Tech:** OpenAI API (`response_format={'type': 'json_object'}`).
 
 ### 2. The AI Sommelier (RAG & Tool Use)
-* **File:** `AI_sommelier.py`
+* **File:** `AI_sommelier.ipynb`
 * **Core Concept:** **Retrieval Augmented Generation (RAG) & Semantic Routing**.
 * **Description:** An autonomous agent acting as a Sommelier. It uses a **Vector Store** to retrieve information from a specific PDF document (`Vinhos_baba_d_urso.pdf`).
     * **Semantic Routing:** It detects if the user is talking about wine.
